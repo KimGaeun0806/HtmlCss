@@ -1,0 +1,88 @@
+.classExample1 {
+    font-size: 10px;
+    color: aquamarine;
+}
+
+.classExample2 {
+    text-align: center;
+}
+
+#idExample {
+    font-size: 10px;
+    color: cornflowerblue;
+}
+
+@font-face { /*가지고 있는 폰트 파일 사용하는 법*/
+    src: url("HtmlCss_note/예시/BMJUA_ttf.ttf");
+    font-family: Jua; /*폰트 이름 정하기*/
+}
+
+h1 { 
+    /*text color*/ 
+        color: aqua;
+        color: rgb(97,249, 107);
+        color: #4CC7CE;
+
+    /*font weight*/
+        /*100부터 900까지 가능. 100단위만 가능
+        font-weight: normal; = font-weight: 400;
+        font-weight: bold; = font-weight: 700;*/
+        font-weight: 100; 
+        font-weight: 200;
+        font-weight: 300;
+        font-weight: 400;
+        font-weight: 500;
+        font-weight: 600;
+        font-weight: 700;
+        font-weight: 800;
+        font-weight: 900;
+
+    /*text align*/
+        text-align: left;
+        text-align: right;
+        text-align: center;
+
+    /*text decoration*/
+        text-decoration: underline;
+        text-decoration: line-through;
+        text-decoration: overline;
+        text-decoration: none; /*<a> 태그의 밑줄을 지울 때 많이 씀*/
+
+    /*font size*/
+        /*절대적 - px, pt / 상대적 - em, %*/
+        font-size: 10px;
+        font-size: 10pt;
+        font-size: 200%; /*부모 요소의 폰트 크기를 기준으로 함*/
+        font-size: 2em; /*n00 % = n em / Ex)200% = 2em*/
+
+    /*line height*/
+        /*line-height는 content area에 영향 x
+        content area가 59px일 때 line-height를 99px로 설정한다면, 위 아래로 20px 추가*/
+        line-height: normal;
+        line-height: 80px;
+
+    /*font*/
+        /*종류 - Serif, Sans-Serif, Monospace, Cursive, Fantasy*/
+        font-family: "Times New Roman", Times, Serif; /*제1의 폰트, 제2의 폰트, 제3의 폰트*/
+        font-family: 'Open Sans', sans-serif; /*구글 폰트 사용. html <head>부분에 링크 붙여넣기 해야 함*/
+        font-family: "Jua"; /*가지고 있는 폰트 파일 사용*/
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+}
+
